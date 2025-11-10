@@ -41,6 +41,7 @@ body {
     padding-top: 90px;
     display: flex;
     gap:200px;
+    height: 500px;
 }
 .btn2{
     background-color: rgb(57, 40, 40);
@@ -112,6 +113,7 @@ body {
 }
 .first-image{
     border: 2px solid purple;
+    height: 470px;
 }
 .stay-ahead{
     padding: 20px 5px;
@@ -157,14 +159,30 @@ padding-bottom: 10px;
 }
 .main-container2{
     display: flex;
-    gap: 3px;
+    gap: 5px;
+    height:450px;
+    padding-top: 50px;
+}
+.img-in-dola{
+    height:450px;
+    width: 250px;
+}
+.image-container3{
+    height: 450px;
 }
 .dollar-sign{
     border: 2px solid purple;
+    height: 220px;
+     background: radial-gradient(
+      ellipse at top left,
+      rgb(163, 49, 163),
+      rgba(0, 0, 0, 1) 50%
+    ),
+    hsl(0, 0%, 0%);
 }
 .dollar-sign img{
      width: 50px;
-    height: 50px;
+    height:50px;
     padding-top: 20px;
 }
 .dollar-sign h2{
@@ -176,10 +194,19 @@ padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
     padding-bottom: 50px;
+    color: rgb(219, 208, 208);
+
 }
 .join-community{
     border: 2px solid purple;
-    margin-top: 3px;
+    margin-top: 5px;
+    height: 220px;
+     background: radial-gradient(
+      ellipse at top left,
+      rgb(163, 49, 163),
+      rgba(0, 0, 0, 1) 50%
+    ),
+    hsl(0, 0%, 0%);
 }
 .join-community img{
     width: 50px;
@@ -195,6 +222,7 @@ padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
     padding-bottom: 20px;
+    color: rgb(219, 208, 208);
 }
 .footer-logo label{
     font-family: Arial, Helvetica, sans-serif;
@@ -205,11 +233,18 @@ padding-bottom: 10px;
 }
 .footer{
     display: flex;
-    gap:300px
+    justify-content: space-between;
+    color: rgb(203, 190, 190);
 }
 .footer label{
     margin-left:5px
 }
 .footer a{
     text-decoration: none;
+    color:rgb(203, 190, 190);
+}
+.terms{
+    display: flex;
+    gap:30px;
+    padding-left: 200px;
 }
